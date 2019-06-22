@@ -2,10 +2,12 @@
 title: "Brownlows Bets"
 author: "Your Name"
 date: "Year 2019"
-output: 
+output:
+  pdf_document:
+    toc: yes
   html_document:
-    number_sections: true
-    toc: true
+    number_sections: yes
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -58,6 +60,7 @@ var(varstor)
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting!-->
 
+and include the amount in British pounds
 
 # Confidence interval of Brownlows earning
 
